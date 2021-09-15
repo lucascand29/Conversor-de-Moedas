@@ -1,0 +1,44 @@
+<html>
+
+<head>
+  <title>
+    Imersão Dev - Aula 01
+  </title>
+  <link rel="stylesheet" href="./conversor.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1 class="page-title">
+      Conversor de moedas
+    </h1>
+    <p class="page-subtitle"><b>
+        Descubra os valores de Bitcoin e Dolar U$ para Real R$
+      </b></p>
+    <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conersor-de-moedas.svg" class="page-logo" alt=""><br>
+
+    <p1 class="cotacao"><b>(Cotação do dia 14 de Setembro de 2021)</b></p1><br><br>
+
+    <label for="moeda"><b>Insira o valor em Dolar</b></label><br><br>
+    <input type="number" id="valor" size="2" /><br><br>
+    <button type="submit" onclick="Converter()">Converter</button>
+    <h2 id="valorConvertidoD"></h2><br>
+
+    <br><br><label for="bitcoin"><b>Insira o valor em Bitcoin</b></label><br><br>
+    <input type="number" id="valorBitcoin" size="2" /><br><br>
+    <button type="submit" onclick="ConverterBit()">Converter</button>
+    <h3 id="valorConvertidoB"></h3>
+
+    <br><br><label for="euro"><b>Insira o valor em Euro</b></label><br><br>
+    <input type="number" id="valorEuro" size="2" /><br><br>
+    <button type="submit" onclick="converterEuro()">Converter</button>
+    <h4 id="valorConvertidoE"></h4>
+  </div>
+  <a href="https://alura.com.br/" target="_blank">
+    <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+  </a>
+    
+  <script src="./conversor.js"></script>
+</body>
+
+</html>

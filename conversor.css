@@ -1,0 +1,62 @@
+body {
+    font-family: "Roboto Mono", monospace;
+    min-height: 400px;
+    background-image: url("https://wise.com/currency-converter-assets/img/facts-about-euro-2148e1142145c8bf8800c9f8fc0c2935.svg");
+    background-color: #90ee90;
+    background-size: 110vh;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+  }
+  
+  .page-title {
+    color: #000000;
+    margin: 0 0 7px;
+  }
+  
+  .page-subtitle {
+    color: #006400;
+    margin-top: 7px;
+  }
+  
+  .page-logo {
+    width: 200px;
+  }
+  
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  label {
+    color: #000000;
+  }
+  button {
+    margin-top: 12px;
+    padding: 4px 8px;
+    border-radius: 10px;
+    background: #ffffff;
+  }
+  .cotacao {
+    color: #1c1c1c;
+    size: 35px;
+  }
+  h2 {
+    color: #000000;
+    size: 30px;
+  }
+  h3 {
+    color: #000000;
+    size: 30px;
+  }
+  h4 {
+    color: #000000;
+    size: 30px;
+  }
+  
